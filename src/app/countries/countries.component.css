@@ -1,0 +1,26 @@
+table {
+    width: 80%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 500px;
+    margin: 20px auto;
+}
+ 
+th.mat-header-cell {
+    text-align: left;
+    max-width: 300px;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: white;
+    border-color: white;
+  }
+
+  .formFieldWidth480 .mat-form-field-infix {
+    width: 480px;
+ }
+
+ ::ng-deep .mat-form-field-infix {
+    width: auto !important;
+}
+
