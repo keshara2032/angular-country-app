@@ -30,8 +30,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Heroku Deployment
 
-If you wish to access the heroku deployment which is connected to the [Spring Backend](https://github.com/keshara2032/SpringRestAPI) also deployed in heroku, visit `https://country-app-demo.herokuapp.com/`.
+If you wish to access the heroku deployment which is connected to the [Spring Backend](https://github.com/keshara2032/SpringRestAPI) also deployed in heroku, visit https://country-app-demo.herokuapp.com/
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod --aot` flag for a production build.
