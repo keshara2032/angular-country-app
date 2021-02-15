@@ -1,27 +1,37 @@
-# AngularCountryApp
+# Angular CRUD application demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+
+***
+
+## Purpose
+
+The idea is to **demonstrate CRUD application with the Spring backend**. This has been built with the Angular Material theme with following functionalities. This app can create countries and manage countries with details such as country name, capital, population.
+
+- Create a country
+- Edit and Update information of a country
+- Filter and find a country
+- Delete a country
+- View all countries in the database
+
+
+## Features
+
+- Angular Material themed build
+- Angular Material Table implementation
+- Angular Material Table Filtering and Pagination implementation
+- Angular Material Snackbars
+- Angular Material Dialog
+- HTTP error handling
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Heroku Deployment
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+If you wish to access the heroku deployment which is connected to the [Spring Backend](https://github.com/keshara2032/SpringRestAPI) also deployed in heroku, visit `https://country-app-demo.herokuapp.com/`.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
