@@ -56,15 +56,12 @@
     <ng-container matColumnDef="actions">
       <mat-header-cell *matHeaderCellDef class="action-header-cell"> Actions </mat-header-cell>
       <mat-cell *matCellDef="let element" class="action-mat-cell">
-        <button mat-icon-button color="warn" (click)="redirectToEdit(element.id)" >
-          <mat-icon class="mat-18">edit</mat-icon>
-        </button>
-        <button mat-icon-button color="success" (click)="redirectToUpdate(element.id)">
-          <mat-icon class="mat-18">update</mat-icon>
-      </button>
-      <button mat-icon-button color="warn" (click)="redirectToDelete(element.id)">
-        <mat-icon class="mat-18">delete</mat-icon>
-    </button>
+ 
+      <button mat-raised-button color="primary"  (click)="redirectToEdit(element.id)">Edit</button>
+      <button mat-raised-button color="secondary" (click)="redirectToUpdate(element.id)">Update</button>
+      <button mat-raised-button color="warn" (click)="redirectToDelete(element.id)">Delete</button>
+
+
       </mat-cell>
     </ng-container>
 
