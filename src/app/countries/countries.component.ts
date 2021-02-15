@@ -28,10 +28,11 @@ export interface CountryElement {
 export class CountriesComponent implements OnInit,AfterViewInit {
 
 
-  displayedColumns: string[] = ['country_name', 'capital', 'population','edit','update','delete'];
+  displayedColumns: string[] = ['country_name', 'capital', 'population','actions'];
   dataSource = new MatTableDataSource();
 
   data: CountryElement[] = [];
+  outline = 'outline'
 
   input:any = {country_name:'', capital:'', population:'', disabled:false}
   output: JSON;

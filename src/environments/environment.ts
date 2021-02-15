@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'http://localhost:8080/rest/v2'  
-  // baseUrl: 'https://springboot-rest-demo-app.herokuapp.com/rest/v2/'  
+  // baseUrl: 'http://localhost:8080/rest/v2'  
+  baseUrl: 'https://springboot-rest-demo-app.herokuapp.com/rest/v2/'  
 
 };
 

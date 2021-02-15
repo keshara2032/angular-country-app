@@ -1,14 +1,33 @@
-table {
-    width: 80%;
+.table {
+    width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
     min-width: 500px;
-    margin: 20px auto;
+    margin: 40px auto;
 }
  
-th.mat-header-cell {
+.mat-header-cell {
     text-align: left;
-    max-width: 300px;
+    justify-content: left;
+    /* padding-left: 20px; */
+}
+
+.action-header-cell {
+    text-align: center;
+    justify-content: center;
+    /* padding-left: 20px; */
+}
+
+.mat-cell {
+    text-align: left;
+    justify-content: left;
+    /* padding-left: 20px; */
+}
+
+.action-mat-cell {
+    text-align: center;
+    justify-content: center;
+    /* padding-left: 20px; */
 }
 
 .mat-form-field-appearance-outline .mat-form-field-outline {
@@ -24,3 +43,9 @@ th.mat-header-cell {
     width: auto !important;
 }
 
+.example-second-footer-row td {
+    color: #900000;
+  }
+
+
+  
