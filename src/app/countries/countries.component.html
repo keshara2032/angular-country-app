@@ -19,7 +19,7 @@
     <ng-container matColumnDef="capital">
       <mat-header-cell *matHeaderCellDef  mat-sort-header>Capital</mat-header-cell>
       <mat-cell *matCellDef="let element">
-        <mat-form-field [appearance]="outline">
+        <mat-form-field appearance="outline">
           <input type="text" matInput readonly="{{element.readlock}}" value={{element.capital}} [(ngModel)]="element.capital">
         </mat-form-field>
       </mat-cell>
